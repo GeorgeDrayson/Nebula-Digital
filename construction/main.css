@@ -1,0 +1,64 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+}
+
+.page-div {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nebula-logo {
+  float: left;
+  padding: 20px;
+  height: 70px;
+  width: auto;
+  position: fixed;
+}
+
+#Home{
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Lexend Deca', sans-serif;
+  color: black;
+}
+
+#home-text{
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#home-img {
+  max-width: 500px;
+  height: auto;
+}
+
+#social-media-images a { text-decoration: none; }
+
+#social-media-images img{
+  height: 40px;
+  width: auto;
+  clear: both;
+  margin: 20px 20px;
+  display: inline-block;
+}
+
+#social-media-images img:hover {
+  opacity: 0.4;
+}
+
+@media (max-width: 475px) {
+  #home-img {width: 250px;}
+  #home-text{font-size: 10px;}
+  #social-media-images img{ height: 20px;}
+}
+
+@media (min-width: 475px) and (max-width: 700px) {
+  #home-img {max-width: 400px;}
+  #home-text{font-size: 15px;}
+}
