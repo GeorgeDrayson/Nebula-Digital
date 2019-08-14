@@ -1,0 +1,13 @@
+.nebula-logo {
+  height: 70px;
+  width: auto;
+  margin: 20px;
+}
+
+#menu-button {
+  margin: 10px;
+}
+
+nav:hover #nav-menu {
+  display: block;
+}
