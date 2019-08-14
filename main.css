@@ -1,13 +1,75 @@
+* {
+  background-color: black;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  margin: 0 auto;
+}
+
+nav ul {
+  float: right;
+  margin: 0 auto;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
+}
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}
+nav a:active, nav a:hover {
+  text-decoration: none;
+  color: #ff5000;
+}
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #ff5000;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 200ms;
+}
+nav a:hover::before {
+  width: 100%;
+}
+ul.sub-menu {
+  position: absolute;
+  background-color: white;
+  margin-left: -20px;
+  padding-top: -25px;
+  padding-bottom: 10px;
+  opacity: 0;
+}
+nav li:hover .sub-menu {
+  opacity: 1;
+}
+
 .nebula-logo {
   height: 70px;
   width: auto;
   margin: 20px;
+  float: left;
 }
 
-#menu-button {
-  margin: 10px;
+#Home h1 {
+  color: white;
+  font-size: 100px;
 }
 
-nav:hover #nav-menu {
-  display: block;
+#Home {
+  padding: 60px;
 }
