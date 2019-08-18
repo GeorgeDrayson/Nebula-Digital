@@ -13,11 +13,19 @@ body, html {
   nav {overflow: hidden;}
 
   .navbar {
-    width: 100%;
     margin: 0 auto;
-    z-index: 10;
     background-color: black;
+    width: 100%;
+    float: center
   }
+
+  .navbar ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #FFF;
+    text-align: center;
+}
 
   .navbar ul {
     margin: 0;
@@ -58,7 +66,7 @@ body, html {
   }
 
   .nebula-logo {
-    height: 70px;
+    height: 60px;
     width: auto;
   }
 
@@ -71,7 +79,6 @@ body, html {
 
   @media (min-width: 500px) and (max-width: 800px) {
     .navbar ul li { margin: 0 10px; }
-    .nebula-logo { height: 60px;}
   }
 
 #home-text h1{
