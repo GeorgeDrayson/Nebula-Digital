@@ -1,6 +1,5 @@
 * {
   font-family: 'Lexend Deca', sans-serif;
-  background-color: black;
 }
 
 body, html {
@@ -76,4 +75,37 @@ body, html {
 #Home {
   vertical-align: middle;
   text-align: center;
+  background-color: black;
 }
+
+.scroll-container {
+
+}
+
+.about {
+  background-color: black;
+}
+
+.description {
+  color: white;
+  position: relative;
+float: left;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.center {
+  text-align: center;
+}
+
+.description p {
+  font-size: 5vw;
+}
+
+.mail {
+  height: 80px;
+}
+
+
+.
