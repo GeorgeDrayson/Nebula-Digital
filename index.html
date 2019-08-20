@@ -20,34 +20,32 @@
   <body>
 
     <!-- Load Facebook SDK for JavaScript -->
-          <div id="fb-root"></div>
-          <script>
-            window.fbAsyncInit = function() {
-              FB.init({
-                xfbml            : true,
-                version          : 'v4.0'
-              });
-            };
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v4.0'
+          });
+        };
 
-            (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));</script>
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
-          <!-- Your customer chat code -->
-          <div class="fb-customerchat"
-            attribution=setup_tool
-            page_id="1571998309517716"
-      theme_color="#ff5000">
-          </div>
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat" attribution=setup_tool page_id="1571998309517716"
+      theme_color="#ff5000"></div>
 
-    <div id="Home" class="page-div">
+    <div id="Home" class="page-div scroll-element">
 
-        <img src="images/nebula-logo.png" class="nebula-logo">
-
+        <div id="top-bar">
+          <img src="images/nebula-logo.png" class="nebula-logo">
+        </div>
         <div class="links">
           <a href="mailto:info@nebuladigital.co.uk" target="_blank"> <img src="images/social/mail.png" alt="mail logo" class="social"> </a>
           <a href="https://www.facebook.com/NebulaDigitalLtd/" target="_blank"> <img src="images/social/facebook.png" alt="facebook logo" class="social"> </a>
@@ -56,7 +54,7 @@
       </div>
 
       <div id="home-text">
-        <h1> We make websites that <strong style="color: #ff5000;"> stand out. </strong></h1>
+        <h1> We make websites that <strong class="orange">stand out. </strong></h1>
       </div>
 
     </div>
@@ -66,17 +64,17 @@
       </p>
     </div>
 
-    <div class="scroll-element center description small-font">
-      <p>We believe in telling your unique story <strong style="color: #ff5000;"> your way. </strong> </p>
+    <div class="scroll-element big-text description">
+      <p>We believe in telling your unique story <strong class="orange"> your way. </strong> </p>
       </p>
     </div>
 
-    <div class="scroll-element center description small-font">
-      <p>We <strong style="color: #ff5000;">listen</strong>, then we build a kick ass website that grabs attention and </br><strong style="color: #ff5000;">doesn't let go.</strong> </p>
+    <div class="scroll-element big-text description">
+      <p>We <strong class="orange">listen</strong> - then we build a kick ass website that grabs attention and </br><strong class="orange">doesn't let go.</strong> </p>
     </div>
 
-    <div class="scroll-element description center">
-      <p>Get <strong style="color: #ff5000;"> in touch </strong>
+    <div class="scroll-element description">
+      <p>Get <strong class="orange"> in touch </strong>
       <a href="mailto:info@nebuladigital.co.uk" target="_blank"> <img src="images/social/mail.png" alt="mail logo" class="social mail"> </a>
       </p>
     </div>
