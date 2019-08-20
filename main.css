@@ -10,6 +10,7 @@ body, html {
 }
 
 .nebula-logo {
+  display: inline-block;
   height: 60px;
   width: auto;
   margin: 10px;
@@ -78,21 +79,32 @@ body, html {
   background-color: black;
 }
 
-.scroll-container {
+body {
+  background-color: black;
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
 
+  height: 100%;
+  width: 100%;
 }
 
-.about {
-  background-color: black;
+.scroll-element {
+  scroll-snap-align: start;
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .description {
   color: white;
   position: relative;
-float: left;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .center {
@@ -100,12 +112,13 @@ transform: translate(-50%, -50%);
 }
 
 .description p {
+  font-size: 6vw;
+}
+
+.small-font p {
   font-size: 5vw;
 }
 
 .mail {
-  height: 80px;
+  height: 6vw;
 }
-
-
-.
