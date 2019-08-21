@@ -19,28 +19,6 @@
 
   <body>
 
-    <!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v4.0'
-          });
-        };
-
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
-      <!-- Your customer chat code -->
-      <div class="fb-customerchat" attribution=setup_tool page_id="1571998309517716"
-      theme_color="#ff5000"></div>
-
     <div id="Home" class="page-div scroll-element">
 
         <div id="top-bar">
@@ -69,14 +47,11 @@
       </p>
     </div>
 
-    <div class="scroll-element big-text description">
-      <p>We <strong class="orange">listen</strong> - then we build a kick ass website that grabs attention and </br><strong class="orange">doesn't let go.</strong> </p>
-    </div>
-
-    <div class="scroll-element description">
+    <div class="scroll-element description final-page">
       <p>Get <strong class="orange"> in touch </strong>
       <a href="mailto:info@nebuladigital.co.uk" target="_blank"> <img src="images/social/mail.png" alt="mail logo" class="social mail"> </a>
       </p>
+      <h6> © Nebula Digital 2019</h6>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

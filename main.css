@@ -111,3 +111,10 @@ body {
 .big-text p {font-size: 5vw;}
 .orange {color: #ff5000;}
 .mail {height: 8vw;}
+
+.final-page h6 {
+  color: white;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+}
