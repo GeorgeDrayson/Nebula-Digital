@@ -1,7 +1,7 @@
 # [Nebula Digital website](https://nebuladigital.co.uk/)
 Coded by [George Drayson](https://github.com/GeorgeDrayson)
 
-![Nebula Screenshot](screenshot.jpg)  
+![Nebula Screenshot](screenshot.jp2)  
 
 ## Tech Stack
 
