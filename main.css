@@ -4,57 +4,36 @@
 
 body, html {
   height: 100%;
-  margin: 0;
-  padding: 0;
   background-color: black;
 }
 
 body {
-  background-color: black;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
-
-  height: 100%;
-  width: 100%;
 }
 
 .nebula-logo {
   display: inline-block;
   height: 60px;
-  width: auto;
   margin: 10px;
   float: left;
 }
 
-@media (max-width: 500px) {
-  .nebula-logo {height: 50px;}
-}
+@media (max-width: 500px) { .nebula-logo {height: 50px;} }
 
 .links {
   display: inline-block;
   float:right;
-  padding: 0;
-  margin: 0 auto;
 }
 
 .links a:hover {
   opacity: 0.5;
   transition: 0.2s ease;
-  text-decoration: none;
 }
 
-.links a { text-decoration: none; }
+.links a, .links a:hover { text-decoration: none; }
 
-.social {
-  height: 50px;
-  width: auto;
-  padding: 0;
-  margin: 0;
-}
-
-@media (max-width: 400px) {
-  .social {height: 40px;}
-}
+@media (max-width: 400px) { .social {height: 40px;} }
 
 #home-text h1{
   color: white;
@@ -73,16 +52,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.page-div {
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #Home {
-  vertical-align: middle;
-  text-align: center;
   background-color: black;
   display: block;
 }
@@ -106,10 +76,9 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.big-text {text-align: center;}
 .description p {font-size: 6vw;}
+.big-text {text-align: center;}
 .big-text p {font-size: 5vw;}
-.orange {color: #ff5000;}
 .mail {height: 8vw;}
 
 .final-page h6 {
