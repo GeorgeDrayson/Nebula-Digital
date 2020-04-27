@@ -57,7 +57,7 @@ html {
 }
 
 .backgroundcliptext strong {
-  background: url(images/fluid-art4.jpg);
+  background: url(images/fluid-art.jpg);
   background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -95,4 +95,8 @@ strong {
   display: inline-block;
   position: absolute;
   bottom: 0;
+}
+
+.final-page p a:hover {
+  text-decoration-color: #ff5000;
 }
