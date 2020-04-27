@@ -7,9 +7,8 @@ body, html {
   background-color: black;
 }
 
-body {
+html {
   scroll-snap-type: y mandatory;
-  overflow-y: scroll;
 }
 
 .nebula-logo {
@@ -53,15 +52,25 @@ body {
 }
 
 #Home {
-  background-color: black;
   display: block;
+  background-color: black;
+}
+
+.backgroundcliptext strong {
+  background: url(images/fluid-art4.jpg);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+strong {
+  color: #ff5000;
 }
 
 .scroll-element {
+  height: 100vh;
+  width: 100vw;
   scroll-snap-align: start;
-
-  height: 100%;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
