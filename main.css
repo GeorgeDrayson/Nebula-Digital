@@ -8,7 +8,7 @@ body, html {
 }
 
 html {
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
 }
 
 .nebula-logo {
